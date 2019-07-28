@@ -1,4 +1,6 @@
 # Identicon
+Run project into a Docker container:
+docker container run --interactive --tty --volume $(pwd):/app --workdir /app --rm elixir:1.8.2-alpine sh
 
 **TODO: Add description**
 
